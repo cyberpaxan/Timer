@@ -1,0 +1,73 @@
+* {
+  font-family: "Azeret Mono", monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.timer_block {
+  width: 150px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.timer_block .time {
+  background-color: #2987be;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 150px;
+  font-size: 100px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.timer_block .title {
+  background-color: #1059b8;
+  padding: 5px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.buttons button {
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px;
+  width: 180px;
+  background-color: rgb(129, 191, 204);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.buttons button.start, .buttons button.stop {
+  color: #2987be;
+}
+.buttons button.start:hover, .buttons button.stop:hover {
+  background-color: #1059b8;
+  color: white;
+}
+.buttons button.pause:hover {
+  background-color: green;
+  color: white;
+}/*# sourceMappingURL=styles.css.map */
